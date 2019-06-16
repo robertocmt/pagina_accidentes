@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="titulo mt-1 mb-5 d-flex justify-content-center flex-column align-content-center flex-wrap">
+	<div class="mt-2 d-flex justify-content-center align-items-center flex-column">
+		<h2>Víctimas mortales según el tipo de accidente</h2>
+	</div>
+	<ul id="nav">
+		<li><a class="btn btn-danger" href="#">2017</a>
+			<section>
+				<p>En 2017, el tipo de accidente con más fallecidos ha sido atropello a personas, con un total de 338 personas.</p>
+				<p>Le sigue muy de cerca los accidentes frontales, con un total de 327.</p>
+				<p>El total de fallecidos en 2017 fueron de 1830 personas.</p>
+				<img width="750" src="http://192.168.2.2:5000/t_total_2017.png">
+			</section>
+		</li>
+		<li><a class="btn btn-danger" href="#">2016</a>
+			<section>
+				<p>En 2016, el tipo de accidente con más fallecidos ha sido atropello a personas, con un total de 386 personas.</p>
+				<p>El segundo puesto son los accidentes frontales, con un total de 277.</p>
+				<p>El total de fallecidos en 2016 fueron de 1810 personas.</p>
+				<img width="750" src="http://192.168.2.2:5000/t_total_2016.png">
+			</section>
+		</li>
+		<li><a class="btn btn-danger" href="#">2015</a>
+			<section>
+				<p>En 2015, el tipo de accidente con más fallecidos ha sido atropello a personas, con un total de 306 personas.</p>
+				<p>El segundo puesto son otros tipos de accidentes con un total de 226.</p>
+				<p>El total de fallecidos en 2015 fueron de 1689 personas.</p>
+				<img width="750" src="http://192.168.2.2:5000/t_total_2015.png"> 
+			</section>
+		</li>
+	</ul>
+</div>
+{% endblock %}

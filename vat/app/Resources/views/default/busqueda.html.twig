@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="titulo mt-1 mb-5 d-flex justify-content-center flex-column align-content-center flex-wrap">
+	<div class="d-flex justify-content-center">
+		<h2>Búsqueda: {{ mayus(provincia) }}</h2>
+	</div>
+	<div class="d-flex justify-content-center mb-3">
+		<img width="700" src="http://192.168.2.2:5000/buscar/{{ mayus(provincia) }}.png"/>
+	</div>
+</div>
+{% endblock %}

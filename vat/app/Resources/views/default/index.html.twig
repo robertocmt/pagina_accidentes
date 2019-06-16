@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="titulo mt-1 mb-5 d-flex justify-content-center flex-column align-content-center flex-wrap">
+	<div class="mt-2 d-flex justify-content-center align-items-center flex-column">
+		<h2>Accidentes mortales del 2017</h2>
+		<div><img width="700" src="http://192.168.2.2:5000/c_total_2017.png"></div>
+	</div>
+	<!--CARD-->
+	<div class="mx-5 mb-5">
+		<div class="card-group">
+		  <div class="card">
+		    <img src="https://fotografias-compromiso.atresmedia.com/clipping/cmsimages01/2017/04/07/B86FC854-0C78-4C23-B75E-C2F30DC1BDC7/58.jpg" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h5 class="card-title">Tipos de accidentes</h5>
+		      <p class="card-text">Podemos ver las victimas mortales según el tipo de accidente. Total de las vías urbanas y las vías interurbanas</p>
+		    </div>
+		    <a href="/t_accidente" class="btn btn-outline-danger">Visitar</a>
+		  </div>
+		  <div class="card">
+		    <img src="https://fotografias-compromiso.atresmedia.com/clipping/cmsimages02/2018/03/23/CD54AEAF-B77F-46E6-9C7D-D02DB9B317D2/58.jpg" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h5 class="card-title">Accidentes por Provincia</h5>
+		      <p class="card-text">Podemos ver las victimas mortales en las provincias. Total de las vías urbanas y las vías interurbanas</p>
+		    </div>
+		    <a href="/a_provincia" class="btn btn-outline-danger">Visitar</a>
+		  </div>
+		  <div class="card">
+		    <img src="https://fotografias-compromiso.atresmedia.com/clipping/cmsimages01/2018/07/27/119B8293-A857-4CF6-BDE3-CA4ECE6706CB/58.jpg" class="card-img-top" alt="...">
+		    <div class="card-body">
+		      <h5 class="card-title">Accidentes por C.Autónoma</h5>
+		      <p class="card-text">Podemos ver las victimas mortales en las c.autónomas. Total de las vías urbanas y las vías interurbanas</p>
+		    </div>
+		    <a href="/a_comunidad" class="btn btn-outline-danger">Visitar</a>
+		  </div>
+		</div>
+	</div>
+</div>
+{% endblock %}
